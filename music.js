@@ -3,7 +3,7 @@ const app = express()
 const port = 3333
 const music = process.env.MUSIC
 app.get('/', (req, res) => {
-  res.send('My favorite Music xaxasssss ' + music)
+  res.send('I dont like ... ' + music)
 })
 
 app.listen(port, () => {
